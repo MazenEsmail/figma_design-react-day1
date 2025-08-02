@@ -1,3 +1,4 @@
+import photo2 from '../assets/reactjs-icon 2.svg';
 function MainPage() {
     return (
         <>
@@ -12,7 +13,7 @@ function MainPage() {
                     <li>Is maintained by Meta</li>
                     <li>Powers thousands of enterprise apps, including mobile apps</li>
                 </ul>
-                <img className="img2" src="src/assets/reactjs-icon 2.svg" alt />
+                <img className="img2" src={photo2} alt />
             </main>
 
         </>

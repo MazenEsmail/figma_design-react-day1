@@ -1,8 +1,9 @@
+import photo from '../assets/react.svg';
 function Navbar() {
     return (
         <header>
             <nav>
-                <img src="src/assets/react.svg" alt />
+                <img src={photo} alt />
                 <p>ReactFacts</p>
             </nav>
         </header>
